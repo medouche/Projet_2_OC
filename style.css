@@ -1,0 +1,73 @@
+
+
+
+body
+    
+        {
+            background: rgb(252, 252, 252);         
+        }
+
+    
+
+
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+        
+    }
+}
+
+/*navigation */
+
+header
+{
+    nav ul
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    nav li
+    { 
+        margin-right: 15px;
+    }
+
+    nav a
+
+    {
+        font-size: 1em;
+        color: #2987a3;
+        padding-bottom: 2px;
+        text-decoration: none;
+    }
+
+    nav a:hover
+    {
+        color:#5f6366;
+        border-bottom: 3px solid # 760001;
+    }
+}
+
+/*Section */
+
+section
+
+{
+    border-width:1px;
+    border-style:dotted;
+    border-color:rgb(255, 255, 255);
+}
+   
+
+
