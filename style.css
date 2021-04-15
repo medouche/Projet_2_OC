@@ -79,23 +79,25 @@ body
     border: solid 1px black;
     border-radius: 50px;
     border-width: thin;
-    width: 30%;
-    text-align: center;
-    padding: auto;
+    background-color: transparent;
        
 }
 
+.rond2
 
 {
-    font-weight: bold;
-    border: solid 1px black;
     border-radius: 50px;
-    border-width: thin;
-    width: 30%;
-    text-align: center;
-    padding: auto;
-       
+    background-color: blue;
+    width: 50px;
+    height: 50px;
 }
+
+.image_marseille
+
+{
+    width: 100%;
+}
+
 
 
 
