@@ -19,13 +19,28 @@ body
 
 .titre
 {
-    color: blue;
+   
+    
 }
+
+.titre1
+
+{
+    color: blue;
+    
+    
+}
+
+
 
 .titre2
 {
     font-weight: bold;
+    align-SELF: flex-end;
+
 }
+
+.titre3
 
 .hebergements
 
@@ -101,7 +116,10 @@ body
     text-align: center;
 }
 
-
+.container
+{
+    color:#0065FC;
+}
 .carte_populaires 
 
 {
