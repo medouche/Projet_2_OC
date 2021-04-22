@@ -70,7 +70,8 @@ body
     border-width: thin;
     width: 30%;
     text-align: center;
-    padding: auto;     
+    padding: auto;  
+       
 }
 
 .rond1
@@ -80,26 +81,71 @@ body
     border-radius: 50px;
     border-width: thin;
     background-color: transparent;
+    position: relative;
+    
+
        
 }
+
 
 .rond2
 
 {
     border-radius: 50px;
-    background-color: blue;
-    width: 50px;
-    height: 50px;
+    background-color:#0065FC;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0px;
+    align-content: flex-start;
+    text-align: center;
 }
 
-.image_marseille
+
+.carte_populaires 
 
 {
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: white;
+}
+
+.image_populaires 
+{
     width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    
+}
+
+.carte_hebergements
+{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: white;
+}
+
+.image_hebergements 
+{
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
 
+.carte_activite 
+{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 5%;
+    background-color: white;
+}
 
+.image_activite
+{
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
 
 
 
@@ -120,14 +166,9 @@ body
 
 
 
-.carte_populaires
 
-{
-    border: solid 2px rgb(12, 12, 12);
-}
 
 .section2 
-
 {
     font-weight: bold;
     border: solid 1px black;
@@ -164,7 +205,7 @@ body
     border-radius: none;
     border-width: thin;
     width: 80%;
-    text-align: center;
+    text-align: start;
     padding: auto;
     background-color: #F2F2F2;
     border-color: white;
