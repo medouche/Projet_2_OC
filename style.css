@@ -13,20 +13,34 @@ body
 
 #bloc_page
 {
-    width: 900px;
-    margin: auto;
-}
-
-.titre
-{
-   
+    block-size: 4550px 375px;
     
 }
 
-.titre1
+
+
+
+
+.reservia
+{
+    block-size: 103px 31px;
+     
+}
+
+
+
+.titre0
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sincrire
 
 {
     color: blue;
+    font-size: 73px 15px;
     
     
 }
@@ -36,18 +50,37 @@ body
 .titre2
 {
     font-weight: bold;
-    align-SELF: flex-end;
+    
 
 }
 
-.titre3
-
-.hebergements
-
+.navigation
 {
-    border-bottom: solid 2px blue;
-    width: 100px;
-    color: blue;
+    display:flex;
+    font-size: 30px;
+
+}
+
+.text
+{
+    font-size: 291px 47px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.text1
+{
+    font-size: 287px 11px;
+    text-align: justify;
+    color: grey;
+
+}
+
+.recherche
+{
+    width: 100%;
+    
+    
 }
 
 
@@ -81,19 +114,29 @@ body
 {
     font-weight: bold;
     border: solid 1px black;
-    border-radius: 50px;
+    width: 10px;
+    height: 10px;
     border-width: thin;
     width: 30%;
     text-align: center;
     padding: auto;  
-       
+    background-color: blue;
+}
+
+
+.filtre
+{
+    
+    
+
+    
 }
 
 .rond1
 {
     font-weight: bold;
     border: solid 1px black;
-    border-radius: 50px;
+    border-radius: 25px;
     border-width: thin;
     background-color: transparent;
     position: relative;
@@ -111,10 +154,44 @@ body
     width: 20px;
     height: 20px;
     position: absolute;
-    left: 0px;
+    left: -20px;
     align-content: flex-start;
     text-align: center;
 }
+
+
+
+
+.section1 
+
+{
+    font-weight: bold;
+    border: solid 1px black;
+    border-radius: none;
+    border-width: thin;
+    width: 100%;
+    padding: auto;
+    background-color: #F2F2F2;
+    border-color: white;   
+}
+
+.populaire
+{
+    width: 50%;
+    text-align: center;
+    border-bottom: solid 2px grey;
+    padding-bottom: 25px;
+}
+
+.hebergements
+
+{
+    border-bottom: solid 2px blue;
+    color: blue;
+}
+
+
+
 
 .container
 {
@@ -126,13 +203,30 @@ body
     border: solid 2px rgb(255, 255, 255);
     border-radius: 5%;
     background-color: white;
+    width: 335px;
+    height: 146px;
+    
 }
+
+
 
 .image_populaires 
 {
     width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    width: 129px;
+    height: 134px;
+    
+}
+
+.caption
+{
+    display: flex;
+    justify-content: flex-end;
+
+    
+    
     
 }
 
@@ -167,19 +261,11 @@ body
 
 
 
-.section1 
+
+.paragraphe1
 
 {
-    font-weight: bold;
-    border: solid 1px black;
-    border-radius: none;
-    border-width: thin;
-    width: 80%;
-    text-align: center;
-    padding: auto;
-    background-color: #F2F2F2;
-    border-color: white;
-       
+    text-align: start;
 }
 
 
@@ -192,7 +278,7 @@ body
     border: solid 1px black;
     border-radius: none;
     border-width: thin;
-    width: 80%;
+    width: 100%;
     text-align: center;
     padding: auto;
     background-color: #F2F2F2;
@@ -207,7 +293,7 @@ body
     border: solid 1px black;
     border-radius: none;
     border-width: thin;
-    width: 80%;
+    width: 100%;
     text-align: center;
     padding: auto;
     background-color: #F2F2F2;
@@ -222,10 +308,17 @@ body
     border: solid 1px black;
     border-radius: none;
     border-width: thin;
-    width: 80%;
+    width: 100%;
     text-align: start;
     padding: auto;
     background-color: #F2F2F2;
     border-color: white;
        
+}
+
+
+.fin
+
+{
+    color: grey;
 }
