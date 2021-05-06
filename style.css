@@ -169,15 +169,7 @@ body
 {
     
     list-style: none;
-    
-
-    
-}
-
-
-{
-    
-      
+       
 }
 
 .rond1
@@ -287,6 +279,8 @@ body
     width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    height: 114px;
+    width: 325px;
 }
 
 
@@ -302,6 +296,7 @@ body
     width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
+    height: 136px;
 }
 
 
