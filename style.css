@@ -113,12 +113,15 @@ body
 {
     font-weight: bold;
     border: solid 1px black;
+    height: 51px;
     border-width: thin;
     text-align: center;
     padding: auto;  
-    height: 51px;   
+    background-color: blue;
     border-bottom-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    position: absolute;
+    
 }
 
 .recherche1
@@ -135,6 +138,9 @@ body
     padding: auto;
     height: 51px;
     width: 300px;
+    position: relative;
+    
+
     
     
     
@@ -153,6 +159,9 @@ body
     background-color: blue;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+    position: absolute;
+    right: 20px;
+
 }
 
 
@@ -191,8 +200,7 @@ body
     
     border-radius: 50px;
     background-color:#0065FC;
-    width: 20px;
-    height: 20px;
+   
     position: absolute;
     left: 0;
     top: 0;
