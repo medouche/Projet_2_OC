@@ -117,10 +117,11 @@ body
     border-width: thin;
     text-align: center;
     padding: auto;  
-    background-color: blue;
+    background-color: rgb(235, 235, 235);
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
     position: absolute;
+    z-index: 4;
     
 }
 
@@ -160,7 +161,7 @@ body
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
     position: absolute;
-    right: 20px;
+    right: 110px;
 
 }
 
