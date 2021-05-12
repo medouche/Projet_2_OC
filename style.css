@@ -42,7 +42,7 @@ body
 .sincrire
 
 {
-    color: blue;
+    color:#0065FC;
     font-size: 72px 18px;
     margin-right: 18px;
     margin-top: 40px;
@@ -180,7 +180,11 @@ body
 
 }
 
-
+.filtres
+{
+    width: 55px;
+    height: 20px;
+}
 .filtre
 {
     
@@ -231,12 +235,25 @@ body
 {   
     margin-left: 50px;
 }
+.fa-info-circle
+{
+    
+    color:#F2F2F2;
+    
+}
 
+.info 
+{   
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: center 90%;
+}
 
 .section1 
 
 {
     font-weight: bold;
+
     border: solid 1px black;
     border-radius: none;
     border-width: thin;
