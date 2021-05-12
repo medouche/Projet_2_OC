@@ -304,21 +304,14 @@ body
     
 }
 
-.caption
-{
-    
-    
 
-    
-    
-    
-}
 
 .carte_hebergements
 {
     border: solid 2px rgb(255, 255, 255);
     border-radius: 5%;
     background-color: white;
+    
 }
 
 .image_hebergements 
@@ -330,6 +323,10 @@ body
     width: 325px;
 }
 
+.caption_hebergements
+{
+    text-align: left;  
+}
 
 .carte_activite 
 {
@@ -346,7 +343,10 @@ body
     height: 136px;
 }
 
-
+.caption_activite
+{
+    text-align: left;
+}
 
 
 .paragraphe1
