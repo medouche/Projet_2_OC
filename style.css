@@ -1,11 +1,16 @@
-
+@font-face {
+    font-family: 'Raleway';
+    src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
+    src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
 
 
 body
     
         {
             background-color: white; 
-            margin: 0;        
+            margin: 0;  
+            font-family: 'Raleway';      
         }
 
     
@@ -248,6 +253,7 @@ body
     margin-right: 5%;
     font-size: center 90%;
 }
+
 
 .section1 
 
