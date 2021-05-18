@@ -36,7 +36,10 @@ body
 }
 
 
-
+.titre
+{
+    padding-left: 15px;
+}
 .titre0
 {
     display: flex;
@@ -59,13 +62,24 @@ body
 
 .titre2
 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-weight: bold;
     
 
 }
 
+
+.hebergements
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .navigation
 {
+    
     display: flex;
     font-size: 30px;
     margin-top: 45px;
@@ -187,16 +201,25 @@ body
 
 .filtres
 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     width: 55px;
     height: 20px;
 }
 .filtre
 {
-    
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;    
     list-style: none;
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 180px;
+    padding-left: 0px;
+
        
 }
 
@@ -240,18 +263,31 @@ body
 {   
     margin-left: 50px;
 }
-.fa-info-circle
+
+.paragraphe1
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.info
 {
     
-    color:#F2F2F2;
-    
+    color: blue;
+    border-radius: 50%;
+    border:solid 1px grey;
+    width: 16pxheight: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.info 
+.text_info 
 {   
     margin-left: 5%;
     margin-right: 5%;
     font-size: center 90%;
+    vertical-align: sub;
 }
 
 
@@ -304,13 +340,35 @@ body
     
 }
 
+.caption
+{
+    padding-left: 10px;
 
+}
+
+.section2 
+{
+    font-weight: bold;
+    border: solid 1px black;
+    border-radius: none;
+    border-width: thin;
+    width: 100%;
+    text-align: auto;
+    padding: auto;
+    background-color: #F2F2F2;
+    border-color: white;
+       
+}
 
 .carte_hebergements
 {
     border: solid 2px rgb(255, 255, 255);
     border-radius: 5%;
     background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
     
 }
 
@@ -320,7 +378,7 @@ body
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     height: 114px;
-    width: 325px;
+    width: 100%;
 }
 
 .caption_hebergements
@@ -328,11 +386,30 @@ body
     text-align: left;  
 }
 
+.section3
+
+{
+    font-weight: bold;
+    border: solid 1px black;
+    border-radius: none;
+    border-width: thin;
+    width: 100%;
+    text-align: center;
+    padding: auto;
+    background-color: #F2F2F2;
+    border-color: white;
+       
+}
+
+
 .carte_activite 
 {
     border: solid 2px rgb(255, 255, 255);
     border-radius: 5%;
     background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .image_activite
@@ -359,34 +436,9 @@ body
 
 
 
-.section2 
-{
-    font-weight: bold;
-    border: solid 1px black;
-    border-radius: none;
-    border-width: thin;
-    width: 100%;
-    text-align: center;
-    padding: auto;
-    background-color: #F2F2F2;
-    border-color: white;
-       
-}
 
-.section3
 
-{
-    font-weight: bold;
-    border: solid 1px black;
-    border-radius: none;
-    border-width: thin;
-    width: 100%;
-    text-align: center;
-    padding: auto;
-    background-color: #F2F2F2;
-    border-color: white;
-       
-}
+
 
 .bas
 
@@ -408,4 +460,7 @@ body
 
 {
     color: grey;
+    
 }
+
+object-fit
