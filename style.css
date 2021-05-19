@@ -253,9 +253,7 @@ body
     align-items: center;
     
     
-    
-    
-    
+  
     
 }
 
@@ -266,13 +264,21 @@ body
 
 .paragraphe1
 {
+    
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
+
+.information
+{
+    display: flex;
+}
+
 .info
 {
-    
+    margin-left: 5%;
+    font-size: 10px;
     color: blue;
     border-radius: 50%;
     border:solid 1px grey;
@@ -281,14 +287,23 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
 .text_info 
 {   
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 2%;
+    
     font-size: center 90%;
-    vertical-align: up;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    
 }
 
 
@@ -296,7 +311,6 @@ body
 
 {
     font-weight: bold;
-
     border: solid 1px black;
     border-radius: none;
     border-width: thin;
@@ -304,10 +318,29 @@ body
     padding: auto;
     background-color: #F2F2F2;
     border-color: white;   
+    
 }
 
 
+.titre0
+{
+    display: flex;
+}
 
+.paragraphe1
+{
+    display: flex;
+    font-weight: bold;
+    
+}
+
+.diagram
+{
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+
+}
 
 
 
@@ -361,6 +394,10 @@ body
        
 }
 
+.hebergement
+{
+
+}
 .carte_hebergements
 {
     border: solid 2px rgb(255, 255, 255);
@@ -427,11 +464,6 @@ body
 }
 
 
-.paragraphe1
-
-{
-    text-align: start;
-}
 
 
 
