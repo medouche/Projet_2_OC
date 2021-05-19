@@ -422,6 +422,7 @@ body
 .caption_hebergements
 {
     text-align: left;  
+    margin-left: 5%;
 }
 
 .section3
@@ -461,6 +462,7 @@ body
 .caption_activite
 {
     text-align: left;
+    margin-left: 5%;
 }
 
 
@@ -485,6 +487,7 @@ body
     padding: auto;
     background-color: #F2F2F2;
     border-color: white;
+    
        
 }
 
@@ -493,6 +496,12 @@ body
 
 {
     color: grey;
+    
+
+    
+    
+    
+
     
 }
 
