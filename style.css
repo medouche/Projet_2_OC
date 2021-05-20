@@ -371,6 +371,7 @@ body
     border-top-right-radius: 5%;
     width: 129px;
     height: 134px;
+    object-fit: cover;
     
 }
 
@@ -417,6 +418,7 @@ body
     border-top-right-radius: 5%;
     height: 114px;
     width: 100%;
+    object-fit: cover;
 }
 
 .caption_hebergements
@@ -457,6 +459,7 @@ body
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     height: 136px;
+    
 }
 
 .caption_activite
