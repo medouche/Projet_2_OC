@@ -498,8 +498,11 @@ body
 .fin
 
 {
-    color: grey;
     
+    color: black;
+    margin-left: 5%;
+    font-family: raleway-black;
+    font-size:  ;
 
     
     
@@ -508,4 +511,3 @@ body
     
 }
 
-object-fit
