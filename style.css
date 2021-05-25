@@ -183,7 +183,7 @@ body
 .recherche2
 
 {
-    background-color:#0065FC;
+    background-color:#3a89ff;
     border: solid 1px #F2F2F2;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -243,7 +243,8 @@ body
 {
     
     border-radius: 50px;
-    background-color:#0065FC;
+    background-color:#deebff;
+    color: #0065FC;
     position: absolute;
     left: 0;
     top: 0;
