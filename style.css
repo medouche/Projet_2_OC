@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
-    src: url('Raleway/Raleway-Italic-VariableFont_wght.ttf');
+    src: url('Raleway/Raleway-VariableFont_wght.ttf');
+    
 }
 
 
@@ -50,25 +50,18 @@ body
 .sincrire
 
 {
-    color:#0065FC;
+    color:#0065fc;
     font-size: 72px 18px;
     margin-right: 18px;
     margin-top: 40px;
+    font-weight: bolder;
     
     
 }
 
 
 
-.titre2
-{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-weight: bold;
-    
 
-}
 
 
 .hebergements
@@ -76,12 +69,15 @@ body
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 72px 18px;
+    font-weight: bolder;
+
 }
 .navigation
 {
     
     display: flex;
-    font-size: 30px;
+    font-size: 72px 18px;
     margin-top: 45px;
     
     
@@ -92,7 +88,7 @@ body
 {
     width: 50%;
     text-align: center;
-    border-bottom: solid 2px grey;
+    border-bottom: solid 2px #f2f2f2;
     padding-bottom: 25px;
    
 
@@ -103,6 +99,16 @@ body
 {
     border-bottom: solid 2px #0065FC;
     color: #0065FC;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.titre2
+{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
 }
 
 .text
@@ -114,9 +120,9 @@ body
 
 .text1
 {
-    font-size: 287px 11px;
+     
     text-align: justify;
-    color: grey;
+    color: black;
 
 }
 
@@ -173,6 +179,12 @@ body
     display: flex;
     text-align: center;
     justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+
+    
+    
 
 
   
@@ -195,6 +207,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 
 
 }
