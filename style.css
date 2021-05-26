@@ -114,8 +114,9 @@ body
 .text
 {
     font-size: 20px;
+    font-weight: bolder;
     margin-right: 65px;
-    font-weight: bold;
+    
 
 }
 
@@ -212,6 +213,11 @@ body
     color: white;
 
 
+}
+
+.section
+{
+    margin-bottom: 40px;
 }
 
 .filtres
@@ -380,10 +386,13 @@ body
     border-radius: 5%;
     background-color: white;
     width: 90%;
-    height: 146px;
+    height: 135px;
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
+    padding-bottom: 2px ;
+    padding-top: 3px ;
+    padding-left: 3px;
     
 }
 
@@ -392,11 +401,12 @@ body
 .image_populaires 
 {
     width: 100%;
+    border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
     width: 129px;
     height: 134px;
     object-fit: cover;
+    
     
 }
 
@@ -404,10 +414,7 @@ body
 {
     padding-left: 20px;
     padding-right: 20px;
-    display: flex;
     
-    flex-direction: column;
-    flex-wrap: wrap;
     
     
 
