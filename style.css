@@ -417,9 +417,9 @@ body
 
 }
 
-.caption1
+.caption_titre
 {
-    
+    font-family: raleway-Thin;
 
 }
 
@@ -516,6 +516,7 @@ body
 {
     text-align: left;
     margin-left: 5%;
+    font-family: raleway-Thin;
 }
 
 
@@ -551,7 +552,7 @@ body
     
     color: black;
     margin-left: 5%;
-    font-family: raleway-Thin;
+    
     font-size:  ;
 
     
