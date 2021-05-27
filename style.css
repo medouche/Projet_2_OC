@@ -113,9 +113,10 @@ body
 
 .text
 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
     margin-right: 65px;
+    font-family: raleway-Thin;
     
 
 }
@@ -125,6 +126,7 @@ body
      
     text-align: justify;
     color: black;
+    
     
 
 }
@@ -550,10 +552,10 @@ body
 
 {
     
-    color: black;
+    
     margin-left: 5%;
     
-    font-size:  ;
+    
 
     
     
